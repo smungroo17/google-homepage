@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="eng">
+<style>
+    .center{
+        position : absolute;    
+        width    : auto;
+        height   : auto;
+        left     : 50%;
+        top      : 50%;
+        margin-left : -100px; 
+        margin-top  : -200px;
+        margin-bottom: 20px;
+    }
+    .searchbar{
+        position: relative;
+        border: none;
+        height: 45px;
+        width: 700px;
+        border:1px solid #d8cfcf;
+        outline:none;
+        position: absolute;
+        border-radius: 25px;
+        margin-left : -200px; 
+        margin-bottom: 20px;
+    }
+    .wrapper{
+        position: relative;
+        display: flex;
+        min-width: 100px;
+        top: 260px;
+        left: 600px;
+    }
+    .mic-icon {
+        position: absolute;
+        top: 11px;
+        left: 460px;
+        width: 25px;
+    }
+    .search-icon {
+        position: absolute;
+        top: 14px;
+        left: -185px;
+        width: 20px;
+    }
+    .signin_button{
+        position: absolute;
+        background-color: rgb(23, 129, 228);
+        color: white;
+        border:none;
+        width: 80px;
+        height: 35px;
+        top: 20px;
+        left: 1340px;
+        border-radius: 10%;
+    }
+    .app_icon{
+        position: absolute;
+        width: 30px;
+        top: 23px;
+        left: 1280px;
+    }
+
+
+</style>
+<header></header>
+<body>
+    <button class="signin_button">Sign in</button>
+    <img src="images/apps/1x/outline_apps_black_24dp.png" alt="app icon" class="app_icon">
+    <img src="images/googlelogo_color_272x92dp.png", alt="Google logo" class="center">
+    <br><br><br>
+    <div class="wrapper">
+        <form>
+            <input type="search" id="query" name="q" placeholder="" class="searchbar">
+            <img src="images/search/1x/twotone_search_black_24dp.png" alt= "search pic" class="search-icon">
+            <img src="images/mic/1x/outline_mic_black_24dp.png" alt="mic pic" class="mic-icon">
+        </form>
+    </div>
+</body>
+<footer>
+
+</footer>
+</html>
